@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Kisik.DataAccess.Core.Enums
 {
-    class CostCurrencyRto
+    enum CostCurrencyRto
     {
+        RUB,
+        EUR,
+        USD
     }
 }

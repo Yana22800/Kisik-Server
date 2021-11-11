@@ -8,5 +8,6 @@ namespace Kisik.DataAccess.Core.Enums
 {
     class VirtualExpenseStatusRto
     {
+
     }
 }
