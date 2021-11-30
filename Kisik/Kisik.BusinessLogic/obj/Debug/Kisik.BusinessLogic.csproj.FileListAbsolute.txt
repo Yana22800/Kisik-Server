@@ -1,0 +1,2 @@
+C:\Users\StudentDev\Documents\GitHub\Kisik-Server\Kisik\Kisik.BusinessLogic\obj\Debug\Kisik.BusinessLogic.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\Kisik-Server\Kisik\Kisik.BusinessLogic\obj\Debug\Kisik.BusinessLogic.csproj.CoreCompileInputs.cache
