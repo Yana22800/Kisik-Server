@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95DA22D3-6F53-40D8-A245-AC454B93AA78}</ProjectGuid>
+    <ProjectGuid>{D9603B21-106A-43E3-885B-2EAA465A83D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kisik.Core</RootNamespace>
-    <AssemblyName>Kisik.Core</AssemblyName>
+    <RootNamespace>kis.DataAccess.Core</RootNamespace>
+    <AssemblyName>kis.DataAccess.Core</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,10 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\UserRto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

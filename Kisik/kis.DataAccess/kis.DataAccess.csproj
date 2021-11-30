@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95DA22D3-6F53-40D8-A245-AC454B93AA78}</ProjectGuid>
+    <ProjectGuid>{96EF6368-1EB6-40FA-8A97-61267E10F598}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kisik.Core</RootNamespace>
-    <AssemblyName>Kisik.Core</AssemblyName>
+    <RootNamespace>kis.DataAccess</RootNamespace>
+    <AssemblyName>kis.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
