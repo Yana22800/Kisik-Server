@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kisik.BusinessLogic", "Kisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kisik.BusinessLogic.Core", "Kisik.BusinessLogic.Core\Kisik.BusinessLogic.Core.csproj", "{2179C714-19BE-40D3-B4CE-045C9E97CF30}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4970277C-AEBA-40AA-8DB5-68BD1DBD85C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shareds", "Shareds\Shareds.csproj", "{BD563EB6-81D1-4147-B230-87784690C65E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{2179C714-19BE-40D3-B4CE-045C9E97CF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2179C714-19BE-40D3-B4CE-045C9E97CF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2179C714-19BE-40D3-B4CE-045C9E97CF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD563EB6-81D1-4147-B230-87784690C65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD563EB6-81D1-4147-B230-87784690C65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD563EB6-81D1-4147-B230-87784690C65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD563EB6-81D1-4147-B230-87784690C65E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{6DCFE11D-8D39-4274-A8F3-5D93C02B7E6F} = {6B31982B-E723-4729-BF5D-B6BE41FE7F07}
 		{AEF07C35-E27F-458C-AA54-52B5386659CC} = {5ACE821C-6C5B-4A2B-9B25-8D4DABA32954}
 		{2179C714-19BE-40D3-B4CE-045C9E97CF30} = {5ACE821C-6C5B-4A2B-9B25-8D4DABA32954}
+		{BD563EB6-81D1-4147-B230-87784690C65E} = {4970277C-AEBA-40AA-8DB5-68BD1DBD85C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F9CFC08-773B-4C3A-BB59-C05FCA26BDBD}
